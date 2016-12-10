@@ -6,7 +6,12 @@
   border-radius: 0;
 }
 .navbar-inverse {
+  margin-bottom: 0;
   background-color: #222129;
+}
+.navbar-inverse .navbar-nav .active a {
+  background-color: transparent;
+  color: #C70500;
 }
 .header-para {
   text-align: center;
