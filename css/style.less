@@ -1,97 +1,171 @@
+@light-red: #ff5065;
+@gold: #fde46e;
 .header {
-    background-color:#1D1D1D;
+    background-color: #1D1D1D;
 }
-.navbar{
+
+.navbar {
     border-radius: 0;
-    }
-.navbar-inverse{
+    padding: 20px 0px;
+}
+
+.navbar-inverse {
     margin-bottom: 0;
-    background-color:#222129;
+    background-color: #222129;
     .navbar-nav {
-        .active{
-            a{
+        .active {
+            a {
                 background-color: transparent;
-                color:#C70500;
+                color: #C70500;
             }
         }
     }
-
-
-    }
+}
 
 .header-para {
     text-align: center;
-    color:white;
+    color: white;
     border-radius: 0;
     font-family: Courier New;
     .header-span {
-    color:#616161;
-}
-}
-.header-content{
-    align-content: center;
-    padding:5px;
-    p {
-        margin:0;
+        color: #616161;
     }
 }
 
+.header-content {
+    align-content: center;
+    padding: 5px;
+    p {
+        margin: 0;
+    }
+}
 
 .header-links {
-
     text-align: left;
-    padding:5px;
+    padding: 5px;
     a {
-    .searchbar {
-        color:white
-        &:hover{
-        color:#C70500;
+        .searchbar {
+            color:white &:hover {
+                color: #C70500;
+            }
         }
-    }
-
-    margin-right: 10px;
-    font-family: Courier New;
-    color: #C70500;
+        margin-right: 10px;
+        font-family: Courier New;
+        color: #C70500;
         &:hover {
             text-decoration: none;
-            color:white;
+            color: white;
         }
     }
-
 }
 
-
-.navbar-brand{
-    float:right;
+.navbar-brand {
+    float: right;
     font-size: 2em;
     font-family: Lucida Console;
     font-weight: bold;
 }
+
 .follow {
-
-    i{
-        color:white;
+    i {
+        color: white;
     }
-    .facebook{
-     background-color:#3B5998;
+    .facebook {
+        background-color: #3B5998;
     }
-    .twitter{
-     background-color:#1DA1F2;
+    .twitter {
+        background-color: #1DA1F2;
     }
-    .pinterest{
-     background-color:#BD081C;
+    .pinterest {
+        background-color: #BD081C;
     }
-    .vimeo{
-     background-color:#13ACF2;
+    .vimeo {
+        background-color: #13ACF2;
     }
-    .youtube{
-     background-color:#CC181E;
+    .youtube {
+        background-color: #CC181E;
     }
-
 }
+
 .navbar-body {
     text-align: center;
     li {
         font-size: 0.9em;
     }
+}
+
+.main-article,
+.sec-article,
+.latest-news .thumb-container,
+.latest-previews .thumb-container,
+.latest-reviews .thumb-container {
+    background: #333;
+    position: relative;
+    height: 70vh;
+    padding: 0;
+    overflow: hidden;
+    img {
+        opacity: 0.4;
+    }
+    .cat-btn {
+        position: absolute;
+        padding: 5px 10px;
+        background: @light-red;
+        color: #fff;
+        top: 40px;
+        left: 40px;
+        z-index: 1;
+    }
+    h3 {
+        position: absolute;
+        left: 40px;
+        bottom: 40px;
+        z-index: 1;
+        a {
+            color: @gold;
+        }
+        small {
+            color: #ddd;
+            a {
+                color: inherit;
+            }
+            span {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+.sec-article {
+    height: 35vh;
+}
+
+.sec-article-container {
+    padding: 0;
+}
+
+.latest-news,
+.latest-previews,
+.latest-reviews {
+    margin-top: 30px;
+    h5 {
+        small {
+            span {
+                margin-right: 5px;
+            }
+        }
+    }
+    .thumb-container {
+        height: auto;
+        img {
+            opacity: 1;
+        }
+        .cat-btn {
+            top: 15px;
+            left: 15px;
+        }
+    }
+}
+.slider{
+    padding-top: 10px;
 }

@@ -4,6 +4,7 @@
 }
 .navbar {
   border-radius: 0;
+  padding: 20px 0px;
 }
 .navbar-inverse {
   margin-bottom: 0;
@@ -74,4 +75,108 @@ color:white .header-links a .searchbar:hover {
 }
 .navbar-body li {
   font-size: 0.9em;
+}
+.main-article,
+.sec-article,
+.latest-news .thumb-container,
+.latest-previews .thumb-container,
+.latest-reviews .thumb-container {
+  background: #333;
+  position: relative;
+  height: 70vh;
+  padding: 0;
+  overflow: hidden;
+}
+.main-article img,
+.sec-article img,
+.latest-news .thumb-container img,
+.latest-previews .thumb-container img,
+.latest-reviews .thumb-container img {
+  opacity: 0.4;
+}
+.main-article .cat-btn,
+.sec-article .cat-btn,
+.latest-news .thumb-container .cat-btn,
+.latest-previews .thumb-container .cat-btn,
+.latest-reviews .thumb-container .cat-btn {
+  position: absolute;
+  padding: 5px 10px;
+  background: #ff5065;
+  color: #fff;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+.main-article h3,
+.sec-article h3,
+.latest-news .thumb-container h3,
+.latest-previews .thumb-container h3,
+.latest-reviews .thumb-container h3 {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  z-index: 1;
+}
+.main-article h3 a,
+.sec-article h3 a,
+.latest-news .thumb-container h3 a,
+.latest-previews .thumb-container h3 a,
+.latest-reviews .thumb-container h3 a {
+  color: #fde46e;
+}
+.main-article h3 small,
+.sec-article h3 small,
+.latest-news .thumb-container h3 small,
+.latest-previews .thumb-container h3 small,
+.latest-reviews .thumb-container h3 small {
+  color: #ddd;
+}
+.main-article h3 small a,
+.sec-article h3 small a,
+.latest-news .thumb-container h3 small a,
+.latest-previews .thumb-container h3 small a,
+.latest-reviews .thumb-container h3 small a {
+  color: inherit;
+}
+.main-article h3 small span,
+.sec-article h3 small span,
+.latest-news .thumb-container h3 small span,
+.latest-previews .thumb-container h3 small span,
+.latest-reviews .thumb-container h3 small span {
+  margin-right: 15px;
+}
+.sec-article {
+  height: 35vh;
+}
+.sec-article-container {
+  padding: 0;
+}
+.latest-news,
+.latest-previews,
+.latest-reviews {
+  margin-top: 30px;
+}
+.latest-news h5 small span,
+.latest-previews h5 small span,
+.latest-reviews h5 small span {
+  margin-right: 5px;
+}
+.latest-news .thumb-container,
+.latest-previews .thumb-container,
+.latest-reviews .thumb-container {
+  height: auto;
+}
+.latest-news .thumb-container img,
+.latest-previews .thumb-container img,
+.latest-reviews .thumb-container img {
+  opacity: 1;
+}
+.latest-news .thumb-container .cat-btn,
+.latest-previews .thumb-container .cat-btn,
+.latest-reviews .thumb-container .cat-btn {
+  top: 15px;
+  left: 15px;
+}
+.slider {
+  padding-top: 10px;
 }
