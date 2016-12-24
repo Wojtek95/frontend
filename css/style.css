@@ -213,12 +213,12 @@ color:white .header-links a .searchbar:hover {
   padding-right: 0;
 }
 .popular-gaming,
-.recomended-posts {
+.recommended-posts {
   padding: 20px;
   background: #F5F5F5;
 }
 .popular-gaming .media,
-.recomended-posts .media {
+.recommended-posts .media {
   padding: 15px;
 }
 .recent-comments {
