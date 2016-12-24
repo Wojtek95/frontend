@@ -180,3 +180,54 @@ color:white .header-links a .searchbar:hover {
 .slider {
   padding-top: 10px;
 }
+.social-news {
+  padding: 20px;
+  margin-top: 30px;
+  background: #F5F5F5;
+}
+.social-news p {
+  font-family: Courier New;
+}
+.social-news li {
+  list-style-type: none;
+  float: left;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.social-news li a {
+  color: #B2BECE;
+}
+.social-news li a:hover {
+  color: #000000;
+}
+.social-news .social-links {
+  padding: 15px;
+}
+.newsletter-form {
+  padding: 20px;
+}
+.newsletter-form p {
+  font-family: Courier New;
+}
+.right-content {
+  padding-right: 0;
+}
+.popular-gaming,
+.recomended-posts {
+  padding: 20px;
+  background: #F5F5F5;
+}
+.popular-gaming .media,
+.recomended-posts .media {
+  padding: 15px;
+}
+.recent-comments {
+  padding: 20px;
+}
+.recent-comments p {
+  font-family: Courier New;
+}
+.recent-comments p small {
+  font-family: Arial;
+  color: darkgray;
+}
