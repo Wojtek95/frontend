@@ -52,6 +52,14 @@ color:white .header-links a .searchbar:hover {
   font-family: Lucida Console;
   font-weight: bold;
 }
+.follow {
+  margin: 0;
+}
+.follow li {
+  list-style-type: none;
+  float: left;
+  border-radius: 0;
+}
 .follow i {
   color: white;
 }
@@ -230,4 +238,41 @@ color:white .header-links a .searchbar:hover {
 .recent-comments p small {
   font-family: Arial;
   color: darkgray;
+}
+.bottom-links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #222129;
+  color: #ffffff;
+  text-align: left;
+}
+.bottom-links span {
+  margin-right: 5px;
+}
+.bottom-links a {
+  color: #ffffff;
+}
+.bottom-links ul {
+  padding: 0;
+}
+.bottom-links ul li {
+  list-style-type: none;
+}
+.bottom-links ul a {
+  color: #ffffff;
+  font-family: Courier New;
+}
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: #1D1D1D;
+  color: #ffffff;
+}
+.footer .copy,
+.footer .social {
+  padding: 15px;
+}
+.footer p {
+  margin: 0;
 }
